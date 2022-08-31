@@ -49,7 +49,7 @@ class ButtonTab extends Component
     this.tabAreaEl_ = this.getElementByClass('tab-area');
     this.b1_.decorate(this.getElementByClass('tab1'));
     this.b2_.decorate(this.getElementByClass('tab2'));
-    this.b3_.render(this.tabAreaEl_, true);
+    this.b3_.render(this.tabAreaEl_);
 
     this.contentAreaEl_ = this.getElementByClass('content-area');
 
