@@ -1,0 +1,41 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Closure Library Test</title>
+<script>
+  appq = [];
+</script>
+<script src="google-closure-library/closure/goog/base.js"></script>
+<script src="deps.js"></script>
+<link rel="stylesheet" href="google-closure-library/closure/goog/css/common.css">
+<link rel="stylesheet" href="google-closure-library/closure/goog/css/css3button.css">
+<style>
+.goog-css3-button-selected {
+  border-color: #444 !important;
+  background: -webkit-gradient(linear, 0% 40%, 0% 70%, from(#e3e3e3),
+      to(#f9f9f9));
+  /* @alternate */ background: -moz-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+</style>
+
+<script>
+  goog.require('app');
+</script>
+
+<body>
+  <div class="button-tab-content">
+    <div class="tab-area">
+      <div class="tab1">Tab1</div>
+      <div class="tab2">Tab2</div>
+    </div>
+    <div class="content-area">
+    </div>
+  </div>
+
+  <script>
+  appq.push(function(){
+      runTop();
+  });
+  </script>
+
+</body>
